@@ -1,0 +1,65 @@
+# training samples
+input_files:
+    - sample1:
+        path: 'path/to/sample1.h5'
+        dataset: 'dataset'
+        weights: 'weights' # leave empty if none
+        label: "sample1"
+        colour: 'tab:blue'
+        linestyle: 'solid'
+        histotype: 'step'
+    - sample2:
+        path: 'path/to/sample2.h5'
+        dataset: 'dataset'
+        weights: 'weights' # leave empty if none
+        label: "sample2"
+        colour: 'tab:orange'
+        linestyle: 'solid'
+        histotype: 'step'
+    - sample3:
+        path: 'path/to/sample3.h5'
+        dataset: 'dataset'
+        weights: 'weights' # leave empty if none
+        label: "sample3"
+        colour: 'tab:green'
+        linestyle: 'solid'
+        histotype: 'step'
+    - sample4:
+        path: 'path/to/sample4.h5'
+        dataset: 'dataset'
+        weights: 'weights' # leave empty if none
+        label: "sample4"
+        colour: 'tab:red'
+        linestyle: 'solid'
+        histotype: 'step'
+
+# input variable list
+input_variables:
+    - pt:
+        xlabel: '$p_{T}$'
+        ylabel: 'Normalized number of events'
+        nbins: 40
+        xmin: 0
+        xmax: 800
+        scaling: 1
+        norm: True
+        log: True
+        logx: False
+        brand: 'ATLAS'
+        title: 'Internal'
+        tag: 'My analysis'
+    - eta:
+        xlabel: '$\eta$'
+        ylabel: 'Normalized number of events'
+        nbins: 40
+        xmin: -2.5
+        xmax: 2.5
+        scaling: 1
+        norm: True
+        log: True
+        logx: False
+        brand: 'ATLAS'
+        title: 'Internal'
+        tag: 'My analysis'
+        
+        

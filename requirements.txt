@@ -1,0 +1,6 @@
+h5py>=3.8.0
+PyYAML>=6.0
+matplotlib>=3.5.3
+puma-hep>=0.2.2
+atlasify>=0.8.0
+termcolor>=1.1.0
