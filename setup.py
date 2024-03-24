@@ -23,7 +23,7 @@ setuptools.setup(
     ],
     entry_points={
         "console_scripts": [
-            "hdf5-plotter=src.hdf5-plotter:main",
+            "hdf5plotter=src.hdf5plotter:main",
         ],
     },
     classifiers=[
